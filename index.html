@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman - An AI/ML Developer</title>
+    <link rel="stylesheet" href="style.css">\
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+</head>
+<body>
+
+
+    <!-- LOADER -->
+
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+    
+
+    <!-- NAVBAR -->
+
+    <nav>
+        <div class="logo">
+          <h1>NAMAN</h1>
+        </div>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="ham">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+
+      <!-- HOME -->
+
+      <section id="home">
+        <div class="grid-home">
+          <div class="h-text">
+            <h5>Hey, I am</h5>
+            <h2>Naman Singh</h2>
+            <h3>An <span class="typed">AI/ML Developer</span></h3>
+          </div>
+          <div class="hr">
+            <img src="img/Home.png" alt="">
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ABOUT -->
+
+      <section id="about">
+        <div class="grid-about">
+          <img src="img/about.jpg" data-aos="fade-right">
+          <div class="about-text">
+            <h3 class="title">About Me</h3>
+            <p>
+              Hi, I'm Naman Singh, an AI/ML developer with a passion for creating innovative solutions that bridge the gap between technology and everyday life. I’ve honed my skills in Btech AI/ML and constantly push the boundaries of what’s possible with machine learning and artificial intelligence.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- SERVICES -->
+
+      <section id="services">
+        <div class="s">
+          <h2 class="title">My Services</h2>
+          <div class="services-list">
+            <div>
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <h3>LLM Models</h3>
+                <p>I specialize in developing and fine-tuning large language models (LLMs) to provide advanced natural language processing solutions, such as chatbots, content generation, and sentiment analysis.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h3>Data Analysis</h3>
+                <p>I analyze and interpret complex datasets to uncover insights and trends, enabling businesses to make data-driven decisions with confidence.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Work Automation</h3>
+                <p>I develop AI-powered automation solutions to optimize workflows, reduce repetitive tasks, and enhance operational efficiency across various industries.</p>
+            </div>
+          </div>        
+        </div>
+      </section>
+
+
+      <!-- CONTACT -->
+
+      <section id="contact">
+        <div class="c">
+            <div class="contact-left">
+              <h2 class="title">Contact Me</h2>
+              <a href="mailto: namansingh9531@gmail.com"><p><i class="fa-solid fa-envelope"></i>namansingh9531@gmail.com</p></a>
+              <a href="tel: +919311517547"><p><i class="fa-brands fa-whatsapp"></i>+91 93115 17547</p></a>
+              <div class="social-icons">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/naman_thakur028"><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+              </div>
+              <a href="" class="btn cv" style="display: none;">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <div id="form" onsubmit="sendmsg()">
+                <input type="text" id="name" placeholder="Your Name" required autocomplete="off">
+                <input type="email" id="email" placeholder="Your E-Mail" required autocomplete="off">
+                <textarea id="message" rows="6" placeholder="Your Message" required autocomplete="off"></textarea>
+                
+                <button type="submit"  class="btn submit" onclick="sendMsg()">Send Feedback</button>
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- FOOTER -->
+
+      <footer> 
+        <p>Copyright &copy; 2023 Pranav. All Rights Reserved.</p> 
+      </footer>
+    
+
+
+      <script src="script.js"></script>
+</body>
+</html>
